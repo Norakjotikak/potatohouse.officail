@@ -1,0 +1,133 @@
+body{
+    background-color: cadetblue;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 300px;
+    background-image: url(./images/bg4.jpg);
+    background-position: top left;
+    background-size: cover;
+    
+}
+.banner h1{
+    text-align: right;
+    word-spacing: 10px;
+    padding-right: 30px;
+}
+.banner h2 {
+    text-align: right;
+    word-spacing: 10px;
+    padding-right: 40px;
+}
+.nav{
+}
+.nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav ul li {
+    display: inline-block;
+    width: 120px
+}
+.nav ul li a {
+    text-decoration: none;
+    color: darkblue;
+    font: size 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.nav ul li a:hover{
+    font-size: 20px;
+    color: red;
+}
+
+#vegetable{
+    text-align: center;
+}
+
+
+.vegcard{
+    width: 200px;
+    height: 350px;
+    text-align: center;
+    border-style:solid;
+    border-color: white;
+    /* overflow: scroll; */
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.vegcard img {
+    width: 100%;
+    height: 50%;
+}
+.vegcard a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: chocolate;
+    color: white;
+}
+hr{
+    border-style: solid;
+    border-radius: 10px;
+    size: 100px;
+}
+#friut{
+    text-align: center;
+
+}
+
+
+.frucard{
+    width: 200px;
+    height: 350px;
+    text-align: center;
+    border-style:solid;
+    border-color: white;
+    /* overflow: scroll; */
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.frucard img {
+    width: 100%;
+    height: 50%;
+}
+.frucard a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: chocolate;
+    color: white;
+}
+.footer{
+    text-align: center;
+}
+.card {
+    width: 300px;
+    height: 450px;
+    display: inline-block;
+    margin: 5px 5px;
+    font-weight: bold;
+    border: 2px solid white;
+    overflow: auto;
+}
+.card img {
+    width: 300px;
+    height: 200px;
+}
+/* ul {
+    list-style-type: square;
+    text-align: left;
+} */
+a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background: #0f7db0;
+    border-radius: 10px;
+}
+.footer {
+    margin: 25px;
+}
